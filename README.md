@@ -9,4 +9,5 @@ This repository stores the files of Unity Workplace for the dissertation
     Visual Basic
 
 
-The working files will prefer upload into the dev brance first.
+The working files will prefer upload into the dev brance first.  
+2020/07/08 update The commit will be uploaded into master at first now.  
