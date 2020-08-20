@@ -234,75 +234,6 @@ Transform:
   m_Father: {fileID: 1998712171}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &773784840
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5937669265776575259, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_Name
-      value: BasicRoom
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947578911167776268, guid: cffd6e81c4258b645ad46c4fd075ba82,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cffd6e81c4258b645ad46c4fd075ba82, type: 3}
 --- !u!1 &1998712169
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +275,39 @@ MonoBehaviour:
   roomLayer:
     serializedVersion: 2
     m_Bits: 256
+  maxStep: 0
   rooms: []
+  wallType:
+    singleLeft: {fileID: 5955849993362815311, guid: 7fbedd0bb65807a45aa1893757be3e8d,
+      type: 3}
+    singleRight: {fileID: 5955849993362815311, guid: 65dce6f4370bb3541aa264edebd21066,
+      type: 3}
+    singleUp: {fileID: 5955849993362815311, guid: f84846ca37c84664b880363e99376c93,
+      type: 3}
+    singleBottom: {fileID: 5955849993362815311, guid: d0adbb51f9c58a74c879adb6180f1582,
+      type: 3}
+    doubleLU: {fileID: 5955849993362815311, guid: 21b4ed803f9b41642846c496e2a00bb5,
+      type: 3}
+    doubleLR: {fileID: 5955849993362815311, guid: f70b2b06c7b24ef4ba494a91f8f2fdca,
+      type: 3}
+    doubleLB: {fileID: 5955849993362815311, guid: 1d81eef1102584447bfe2121cf153d17,
+      type: 3}
+    doubleUR: {fileID: 5955849993362815311, guid: bcb9c7e5ee197b445bd79231b610f834,
+      type: 3}
+    doubleUB: {fileID: 5955849993362815311, guid: f9be9dc3c36de184c873edc0efdf81cf,
+      type: 3}
+    doubleRB: {fileID: 5955849993362815311, guid: 3f0ad7aac89f79d4ea20ae6d415c17fb,
+      type: 3}
+    tripleLUR: {fileID: 5955849993362815311, guid: aadca2a6e32f1a047b4f8b6f4051229d,
+      type: 3}
+    tripleLUB: {fileID: 5955849993362815311, guid: c94b7856501a4b74d9d251fbef2c3097,
+      type: 3}
+    tripleURB: {fileID: 5955849993362815311, guid: a08d48d7ac491164491d2017d91d7578,
+      type: 3}
+    tripleLRB: {fileID: 5955849993362815311, guid: 5814c07ca88dfb543869f7b68b0f9345,
+      type: 3}
+    fourDoors: {fileID: 5955849993362815311, guid: 644441e8e509523479446b66df6bf671,
+      type: 3}
 --- !u!4 &1998712171
 Transform:
   m_ObjectHideFlags: 0
