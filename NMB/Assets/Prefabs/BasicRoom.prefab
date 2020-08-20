@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6291478932590612166}
   - component: {fileID: 2950914809460241788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RoomArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2160,7 +2160,7 @@ GameObject:
   - component: {fileID: 7891184676304780256}
   - component: {fileID: 3426621025298284208}
   - component: {fileID: 3640781104647362183}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BasicRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Room.cs" />
     <Compile Include="Assets\Scripts\RoomGenerator.cs" />
+    <Compile Include="Assets\Scripts\WallMap.cs" />
     <None Include="Assets\Art Assets\Ninja Hero\Read Me.txt" />
     <Reference Include="UnityEngine">
       <HintPath>E:/Unity/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
