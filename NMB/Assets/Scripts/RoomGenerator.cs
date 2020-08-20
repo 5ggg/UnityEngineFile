@@ -64,10 +64,10 @@ public class RoomGenerator : MonoBehaviour
 
     void Update()
     {
-        if (Input.anyKeyDown)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        //if (Input.anyKeyDown)
+        //{
+        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //}
     }
 
     public void ChangePointPos()
