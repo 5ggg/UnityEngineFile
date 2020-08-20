@@ -21,7 +21,16 @@ public class RoomGenerator : MonoBehaviour
     public float yOffset;
     public LayerMask roomLayer;
 
+    public int maxStep;
+
     public List<Room> rooms = new List<Room>();
+
+    List<GameObject> farRooms = new List<GameObject>();
+
+    List<GameObject> lessFarRooms = new List<GameObject>();
+
+    List<GameObject> oneWayRooms = new List<GameObject>();
+
 
     void Start()
     {
@@ -45,6 +54,10 @@ public class RoomGenerator : MonoBehaviour
             //}
             SetupRoom(room, room.transform.position);
         }
+
+
+        FindEndRoom();
+
         endRoom.GetComponent<SpriteRenderer>().color = endColor;
     }
 
@@ -87,5 +100,48 @@ public class RoomGenerator : MonoBehaviour
         newRoom.roomLeft = Physics2D.OverlapCircle(roomPosition + new Vector3(-xOffset, 0, 0), 0.2f, roomLayer);
         newRoom.roomRight = Physics2D.OverlapCircle(roomPosition + new Vector3(xOffset, 0, 0), 0.2f, roomLayer);
 
+        newRoom.UpdateRoom();
+
     }
+
+    public void FindEndRoom()
+    {
+        //max value, the longest distince number
+        for (int i = 0; i < rooms.Count; i++)
+        {
+            if (rooms[i].stepToStart > maxStep)
+                maxStep = rooms[i].stepToStart;
+        }
+
+        //get the most far room and second far
+        foreach (var room in rooms)
+        {
+            if (room.stepToStart == maxStep)
+                farRooms.Add(room.gameObject);
+            if (room.stepToStart == maxStep - 1)
+                lessFarRooms.Add(room.gameObject);
+        }
+
+        for (int i = 0; i < farRooms.Count; i++)
+        {
+            if (farRooms[i].GetComponent<Room>().doorNumber == 1)
+                oneWayRooms.Add(farRooms[i]);// one way room on most far
+        }
+
+        for (int i = 0; i < lessFarRooms.Count; i++)
+        {
+            if (lessFarRooms[i].GetComponent<Room>().doorNumber == 1)
+                oneWayRooms.Add(lessFarRooms[i]);//  one way room on second far
+        }
+
+        if (oneWayRooms.Count != 0)
+        {
+            endRoom = oneWayRooms[Random.Range(0, oneWayRooms.Count)];
+        }
+        else
+        {
+            endRoom = farRooms[Random.Range(0, farRooms.Count)];
+        }
+    }
+
 }
