@@ -18,4 +18,7 @@ The testing part will be upload into the dev if possible.
 2020/07/31 Update"13_better final room algorithms"   
 2020/08/05 Update"14_wall"   
 2020/08/11 Update"15.1_Tilemap" 
-
+2020/08/15 Complete Turn Based demo  
+2020/08/16 Update real time demo  
+2020/08/19 Update room render  
+2020/08/24 Update enemy AI  
