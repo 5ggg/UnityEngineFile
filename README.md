@@ -30,3 +30,8 @@ The testing part will be upload into the dev if possible.
     2020/08/19   Update room render  
     2020/08/24   Update enemy AI  
     2020/08/24   Update character editor and create different character for different weapons  
+    2020/08/28   Update character and enemy assets   
+    2020/08/29   Update Text and UI   
+    2020/09/01   Improve UI performance   
+    2020/09/01   Develop start and exit menu   
+    2020/09/02   Start design and develop the simple Cutscenes   
