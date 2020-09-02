@@ -10,8 +10,8 @@ The testing part will be upload into the dev if possible.
     Unity 5.0 (2019.4.0f1)   
     
     Visual Studio Community 2019   
-    Visual Studio Tools for Unity   
-    Visual Basic   
+       Visual Studio Tools for Unity   
+       Visual Basic   
     
     Adobe Photoshop CC  
     adobe Premiere CC
