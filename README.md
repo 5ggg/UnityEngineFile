@@ -8,9 +8,16 @@ The testing part will be upload into the dev if possible.
 ### Environmental Info.  
     Unity Hub (2.3.2)   
     Unity 5.0 (2019.4.0f1)   
+    
     Visual Studio Community 2019   
     Visual Studio Tools for Unity   
     Visual Basic   
+    
+    Adobe Photoshop CC  
+    adobe Premiere CC
+    
+    Autodesk Maya 2020  
+    Autodesk 3ds Max 2021  
 
 
 
