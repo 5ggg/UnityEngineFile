@@ -7,7 +7,7 @@ The testing part will be upload into the dev if possible.
 
 ### Environmental Info.  
     Unity Hub (2.3.2)   
-    Unity 5.0 (2019.4.0f1)   
+    Unity 5.0 (2019.3.2f1)   
     
     Visual Studio Community 2019   
        Visual Studio Tools for Unity   
@@ -43,3 +43,4 @@ The testing part will be upload into the dev if possible.
     2020/09/01   Develop start and exit menu   
     2020/09/02   Start design and develop the simple Cutscenes   
     2020/09/07   Complete the introduce video
+    2020/09/11   Update Start menu
