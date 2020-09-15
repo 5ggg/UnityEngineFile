@@ -44,4 +44,4 @@ The testing part will be upload into the dev if possible.
     2020/09/02   Start design and develop the simple Cutscenes   
     2020/09/07   Complete the introduce video
     2020/09/11   Update Start menu
-    2020/09/14   Update the UI
+    2020/09/14   Update the UI and menu
