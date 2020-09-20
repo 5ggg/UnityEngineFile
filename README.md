@@ -45,3 +45,8 @@ The testing part will be upload into the dev if possible.
     2020/09/07   Complete the introduce video
     2020/09/11   Update Start menu
     2020/09/14   Update the UI and menu
+    2020/09/15   Update Presentation video
+    2020/09/15   Update the option and credits
+    2020/09/16
+    2020/09/17   Update Presentation video
+    2020/09/20   Update Presentation video
