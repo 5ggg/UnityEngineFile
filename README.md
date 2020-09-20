@@ -5,6 +5,17 @@ The working files will prefer upload into the master brance first.
 The testing part will be upload into the dev if possible.
 
 
+### Important Notes
+GitHub cannot accept the single files larger than 100MB   
+therefore the complete source code can be obtained from the following link:   
+
+
+
+The program is also packaged as an executable file,   
+which can be conveniently used for testing   
+and can be downloaded at the following link：  
+https://gla-my.sharepoint.com/:u:/g/personal/2410536s_student_gla_ac_uk/Ecp_Byf2UwpHu9jccJY6aG0BsfV75Rf47VXKmzxuGxLy-g?e=rxqADa
+
 ### Environmental Info.  
     Unity  (2019.4.0f1) 
     Unity Hub (2.3.2)   
