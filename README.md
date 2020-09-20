@@ -2,19 +2,20 @@
 This repository stores the files of Unity Workplace for the dissertation
     
 The working files will prefer upload into the master brance first.  
-The testing part will be upload into the dev if possible.   
+The testing part will be upload into the dev if possible.
 
 
 ### Environmental Info.  
+    Unity  (2019.4.0f1) 
     Unity Hub (2.3.2)   
-    Unity 5.0 (2019.4.0f1)   
     
     Visual Studio Community 2019   
-       Visual Studio Tools for Unity   
-       Visual Basic   
+            Visual Studio Tools for Unity   
+            Visual Basic   
     
+    Adobe Premiere CC
     Adobe Photoshop CC  
-    adobe Premiere CC
+    ArcTime Pro
     
     Autodesk Maya 2020  
     Autodesk 3ds Max 2021  
@@ -23,7 +24,9 @@ The testing part will be upload into the dev if possible.
 
 ### Update Log  
     2020/07/08   update The commit will be uploaded into master at first now.  
-    2020/07/15   demo development.     
+    2020/07/12   Update room generator
+    2020/07/12   Update doors generator
+    2020/07/15   demo development complete.     
     2020/07/17   Sometimes has commit or push issues. Sloving it now.    
     2020/07/27   Update "1"|"the roomgenerator and doorgenarator(Part 3)"   
     2020/07/31   Update"3_better final room algorithms"   
@@ -35,6 +38,7 @@ The testing part will be upload into the dev if possible.
     2020/08/15   Complete Turn Based demo  
     2020/08/16   Update real time demo  
     2020/08/19   Update room render  
+    2020/08/20   Create Presentation video text
     2020/08/24   Update enemy AI  
     2020/08/24   Update character editor and create different character for different weapons  
     2020/08/28   Update character and enemy assets   
@@ -42,11 +46,14 @@ The testing part will be upload into the dev if possible.
     2020/09/01   Improve UI performance   
     2020/09/01   Develop start and exit menu   
     2020/09/02   Start design and develop the simple Cutscenes   
-    2020/09/07   Complete the introduce video
+    2020/09/05   Complete the CG 1 render
+    2020/09/06   Complete the CG 2 and 3 render
+    2020/09/07   Complete the presentation video frameworks
     2020/09/11   Update Start menu
     2020/09/14   Update the UI and menu
     2020/09/15   Update Presentation video
-    2020/09/15   Update the option and credits
-    2020/09/16
-    2020/09/17   Update Presentation video
-    2020/09/20   Update Presentation video
+    2020/09/15   Update the option and credits interface
+    2020/09/16   Optimize the adaptation of resolution to different screens (Failures)
+    2020/09/16   Update Presentation video (Correct the timeline)
+    2020/09/17   Update generator design frame
+    2020/09/20   Update Presentation video 
