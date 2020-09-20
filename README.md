@@ -7,8 +7,8 @@ The testing part will be upload into the dev if possible.
 
 ### Important Notes
 GitHub cannot accept the single files larger than 100MB   
-therefore the complete source code can be obtained from the following link:   
-
+therefore the complete source code can be obtained from the following link:
+(Please private message me)
 
 
 The program is also packaged as an executable file,   
